@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>massage</title>
+</head>
+<body>
+   
+    
+        <section class="promo">
+        <div class="container">
+           <header class="header">
+            <div class="header__official">
+                Шумский Сергей
+                <span>Мануальная терапия и массажи</span>
+            </div>
+            <div class="header__contacts">
+                <a href="tel:0556608523" class="header__phone">tel:055 660-85-23</a>
+                <button data-modal="consultation" class="button">бесплатная консультация</button>
+            </div>
+        </header>
+
+        <h1 class="promo__header">Мануальная терапия и массажи </h1>
+        <h2 class="promo__subheader">Консультация и процедуры на юге и центре страны</h2>
+        
+           </div>
+    </section>
+
+    <section class="catalog">
+        <div class="container">
+            <h2 class="catalog__title">Перечень процедур</h2>
+            <div class="catalog__wrapper">
+                <div class="catalog__item">
+                    <img src="icons/hotpng.com (16).png" alt="diagnostics" class="catalog__icon">
+                   <div> <div class="catalog__subtitle">
+                    Диагностика проблемы
+                </div>
+                <ul class="catalog__list">
+                    <li>Кинезиология</li>
+                    <li>Прикладная кинезиология</li>
+                    <li>Мышечно-мануальное тестирование мышц</li>
+                    
+                 </ul></div>
+                </div>
+                <div class="catalog__item">
+                    <img src="icons/hotpng.com (18).png" alt="massage" class="catalog__icon">
+                    <div class="catalog__subtitle">
+                        Виды массажных техник
+                    </div>
+                    <ul class="catalog__list">
+                        <li>Шведский массаж</li>
+                        <li>Лечебный массаж, массаж глубоких тканей</li>
+                        <li>Шияцу, рефлексология</li>
+                        
+                        </ul></div>
+                
+                <div class="catalog__item">
+                <img src="icons/hotpng.com (12).png" alt="manual" class="catalog__icon">
+               <div> <div class="catalog__subtitle">
+                Мануальная терапия
+            </div>
+            <ul class="catalog__list">
+                <li>Остеопатия</li>
+                <li>Мануальные техники</li>
+                <li>Терапия триггерных точек (manual trigger point therapy)</li>
+                
+            </ul></div>
+            </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="consultation">
+        <div class="container">
+            <h2 class="consultation__title">
+                Получите бесплатную консультацию<br>
+                по подбору процедуры 
+            </h2>
+            <form id="consultation-form" class="consultation__form" action="#">
+                <input name="name" required placeholder="Ваше имя" type="text"> 
+                <input name="phone" required placeholder="Ваш телефон"> 
+                <input name="email" required placeholder="Ваш E-mail" type="email"> 
+
+                <button class="button button_consultation">заказать консультацию</button>
+            </form>
+        </div>
+    </section>
+
+    <div class="overlay">
+        <div class="modal" id="consultation">
+            <div class="modal__close">&times;</div>
+            <div class="modal__subtitle">Просто заполните форму заявки</div>
+            <form class="modal__form" action="#">
+                <input name="name" placeholder="Ваше имя" type="text"> 
+                <input name="phone" placeholder="Ваш телефон"> 
+                <input name="email" placeholder="Ваш E-mail" type="email"> 
+
+                <button class="button button_consultation">заказать консультацию</button>
+            </form>
+        </div>
+        
+        
+        <div class="modal modal_mini" id="thanks">
+            <div class="modal__close">&times;</div>
+            <div class="modal__subtitle">Спасибо за вашу заявку!</div>
+           
+        </div>
+</div>
+
+
+
+
+<script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/jquery.maskedinput.min.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+ <script src="js/script.js"></script>   
+</body>
+</html>
